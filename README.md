@@ -5,6 +5,11 @@ Brain Simulator III is a knowledge system capable of representing and relating i
 
 Agents are independent modules and can be written in C# or Python. The Brain Simulator system runs on Windows or MAC. A growing library of modules is being adapted from previous research and development.
 
+## Repository Layout
+
+- `csharp/` contains all C# projects including the Visual Studio solution (`csharp/BrainSimulator.sln`).
+- `rust/` contains a Rust workspace beginning with the `uks_core` crate.
+
 The Brain Simulator is supported by the non-profit “Future AI Society” which has additional information and holds regular online development meetings.  You can join free at: https://futureaisociety.org Or support continuing development with a paid membership.
 With the UKS, this project is leapfrogging other AI technologies which are unable to represent the information needed for the understanding which underpins Common Sense. The Brain Simulator system can  
 •	Represent multi-sensory information so that sounds, words, and images can be related.  
